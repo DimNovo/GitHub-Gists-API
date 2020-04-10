@@ -92,13 +92,13 @@ struct FooterView: View {
             HStack {
                 Text("Created:")
                 Spacer()
-                Text(gist.createdAt)
+                Text(gist.createdAtString)
                     .foregroundColor(.secondary)
             }
             HStack {
                 Text("Last updated:")
                 Spacer()
-                Text(gist.updatedAt)
+                Text(gist.updatedAtString)
                     .foregroundColor(.secondary)
             }
             HStack {
